@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class fordonsbutiken {
     
-    ArrayList fordonsbutiken = new ArrayList();
+    ArrayList<vehicles> fordonsbutiken = new ArrayList<vehicles>();
     
     public void addToList() {
         
@@ -16,7 +16,7 @@ public class fordonsbutiken {
     
     public void exploreMotorcycleList() {
         
-        System.out.println("\n" + fordonsbutiken.toString());
+        System.out.println("\n" + ((motorcycle)fordonsbutiken.get(0)).vehicleBrand);
         
     }
     

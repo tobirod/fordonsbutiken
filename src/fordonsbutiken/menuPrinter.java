@@ -35,7 +35,7 @@ public class menuPrinter {
         
         System.out.println("1 - Ja.");
         System.out.println("2 - Nej.\n");
-        System.out.println("3 - Tilbaka ett steg.");
+        System.out.println("3 - Tillbaka ett steg.");
         
         System.out.println("_____________________________________________\n");
         
