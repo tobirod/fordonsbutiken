@@ -7,5 +7,5 @@ abstract class vehicles {
     String vehicleBrand;
     String color;
     Boolean brandNew;
-        
+    
 }
