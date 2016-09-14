@@ -1,21 +1,22 @@
 package fordonsbutiken;
 
 import java.util.ArrayList;
-import fordonsbutiken.motorcycle;
 
 public class fordonsbutiken {
     
-    ArrayList test = new ArrayList();
+    ArrayList fordonsbutiken = new ArrayList();
     
     public void addToList() {
         
-        fordonsbutiken.add(motorcycle(2));
+        fordonsbutiken.add(new motorcycle(1999, "Ducati", "Yellow", 50.5, true, "Gas", 2, 2, false));
         
     }
     
+    // int modelOfYear, String vehicleBrand, String color, double horsePower, Boolean brandNew, String fuelType, int numberOfPassengers, int numberOfWheels, Boolean sideCarAvailable
+    
     public void exploreMotorcycleList() {
         
-        System.out.println("\n" + test);
+        System.out.println("\n" + fordonsbutiken.toString());
         
     }
     
